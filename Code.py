@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 
 """DATA  PREPROCESSING"""
 
-training = pd.read_csv('/content/trainset.csv')
+training = pd.read_csv('/content/google_stock_prices_train_dataset.csv')
 
-test = pd.read_csv('/content/testset.csv')
+test = pd.read_csv('/content/google_stock_prices_test_dataset.csv')
 
 training_set = training.iloc[:,1:2]
 test_set = test.iloc[:,1:2]
